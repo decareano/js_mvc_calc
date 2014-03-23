@@ -10,16 +10,14 @@ Code has implemented with next patterns:
 * MVC architecture
 * Module pattern
 * Publisher-subscriber pattern
-* Strategy pattern for operationss
-
+* Strategy pattern for math operations
 
 Live example
 ---------
 http://igrys.com/calc/
 
-
-Code is partially covered with tests using Jasmine framework
-
 Test runner
 ---------
+Code is partially covered with tests using Jasmine framework.
+
 http://igrys.com/calc/test/runner.html

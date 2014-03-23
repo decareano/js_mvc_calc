@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<title>Test Runner</title>
+
+	<!-- Include Jasmine -->
+	<link rel="stylesheet" type="text/css" href="libs/jasmine-1.3.0/jasmine.css"></link>
+	<script type="text/javascript" src="libs/jasmine-1.3.0/jasmine.js"></script>
+	<script type="text/javascript" src="libs/jasmine-1.3.0/jasmine-html.js"></script>
+
+
+    <script type="text/javascript" src="../js/utils/pubSub.js"></script>
+    <script type="text/javascript" src="../js/models/operations.js"></script>
+	<script type="text/javascript" src="../js/models/calculator.js"></script>
+
+    <script type="text/javascript" src="spec/calculator.spec.js"></script>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+
+    window.onload = function(){
+
+        //HTML reporting
+        jasmine.getEnv().addReporter(
+                new jasmine.HtmlReporter()
+        );
+
+        //run tests
+        jasmine.getEnv().execute();
+    }
+
+</script>
+
+</body>
+</html>

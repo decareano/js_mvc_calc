@@ -1,4 +1,4 @@
-(function () {
+var app = function () {
     'use strict';
 
     var
@@ -14,4 +14,4 @@
     //let's go!
     controller.start();
 
-})();
+};
